@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.primario {
+  background-color: #182C61;
+}
+
+.secundario {
+  background-color: #3B3B98;
+}
+
+.boton {
+  background-color: #3B3B98;
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+}
+
+.boton-limpiar {
+  background-color: #f02a55;
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+}
+
+.boton-limpiar:hover {
+  background-color: #d7101a;
+
+}
+
+.boton:hover {
+  background-color: #2f2f7c;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: 160px;
+}
+
+@media (max-width: 576px) {
+  img {
+    height: 220px;
+  }
+}
